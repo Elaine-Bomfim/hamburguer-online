@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}  
+
+form{
+    width: 700px;  
+    display: flex;
+    flex-direction: column;
+    padding:3em;
+   
+}
+
+.texto{
+    font-weight: lighter; 
+    color: rgb(247, 107, 8);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: -6px;
+}
+.endereco{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+div{
+    padding: 10px 20px;
+    font-size: 30px;
+    font-weight: normal;
+}
+input{
+    width: 400px;
+    height: 28px;
+    border-radius: 10px;
+    border: none;
+    margin: 0 50px;
+}
+.button{
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(247, 107, 8);
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: hsl(25, 75%, 47%);
+}
+.imagem-hamburguer-01{
+    width: 600px;
+    float: right;
+    margin-right: 10px;
+    position: relative;
+    top: -600px; 
+}
+.imagem-hamburguer-02{
+    width: 600px;
+    float: right;
+    margin-right: -500px;
+    position: relative;
+    top: -400px; 
+}
+video{
+    min-width: 100%;
+    min-height: 100%;
+}
+.video-hamburguer{
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
